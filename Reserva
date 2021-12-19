@@ -1,0 +1,66 @@
+package CapaNegocio;
+
+public class Reserva {
+    public String encargado;
+    public String direccion;
+    public String nroReserva;
+    public String precio;
+    public String condPago;
+
+    public String getEncargado() {
+        return encargado;
+    }
+
+    public void setEncargado(String encargado) {
+        this.encargado = encargado;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public String getNroReserva() {
+        return nroReserva;
+    }
+
+    public void setNroReserva(String nroReserva) {
+        this.nroReserva = nroReserva;
+    }
+
+    public String getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(String precio) {
+        this.precio = precio;
+    }
+
+    public String getCondPago() {
+        return condPago;
+    }
+
+    public void setCondPago(String condPago) {
+        this.condPago = condPago;
+    }
+
+    public String Funcionar()
+    {
+        return "El metodo Funcionar no esta implementado";
+    }
+    public String Manifestar()
+    {
+        return "El metodo manifestar no esta implementado";
+    }
+    public String Gestionar()
+    {
+        return "El metodo gestionar no esta implementado";
+    }
+    public String Verificar()
+    {
+        return "El metodo verificar no esta implementado";
+    }
+}
