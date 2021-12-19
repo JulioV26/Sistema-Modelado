@@ -1,0 +1,48 @@
+package CapaNegocio;
+
+public class Persona {
+    public String nombres;
+    public String apellidos;
+    public String dni;
+
+    public String getNombres() {
+        return nombres;
+    }
+
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
+    }
+
+    public String getApellidos() {
+        return apellidos;
+    }
+
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+    
+    public String Caminar()
+    {
+        return "El metodo Caminar no esta implementado";
+    }
+    public String Emprender()
+    {
+        return "El metodo emprender no esta implementado";
+    }
+    public String Pensar()
+    {
+        return "El metodo Caminar no esta implementado";
+    }
+    public String Crear()
+    {
+        return "El metodo emprender no esta implementado";
+    }
+}
