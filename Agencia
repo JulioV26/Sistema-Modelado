@@ -1,0 +1,67 @@
+package CapaNegocio;
+
+public class Agencia {
+    public String nombre;
+    public String ubicacion;
+    public String aniosFundacion;
+    public String pais;
+    public String observaciones;
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getUbicacion() {
+        return ubicacion;
+    }
+
+    public void setUbicacion(String ubicacion) {
+        this.ubicacion = ubicacion;
+    }
+
+    public String getAniosFundacion() {
+        return aniosFundacion;
+    }
+
+    public void setAniosFundacion(String aniosFundacion) {
+        this.aniosFundacion = aniosFundacion;
+    }
+
+    public String getPais() {
+        return pais;
+    }
+
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
+
+    public String getObservaciones() {
+        return observaciones;
+    }
+
+    public void setObservaciones(String observaciones) {
+        this.observaciones = observaciones;
+    }
+
+    public String Funcionar()
+    {
+        return "El metodo Funcionar no esta implementado";
+    }
+    public String Garantizar()
+    {
+        return "El metodo garantizar no esta implementado";
+    }
+    public String Beneficiar()
+    {
+        return "El metodo beneficiar no esta implementado";
+    }
+    public String Crecer()
+    {
+        return "El metodo crecer no esta implementado";
+    }
+    
+}
